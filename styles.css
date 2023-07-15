@@ -5,3 +5,30 @@
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 240px;
+}
+.nav-title {
+  font-size: 3rem;
+  font-weight: 700px;
+  color: #131313;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-left: 30px;
+}
+nav li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #424242;
+  text-decoration: none;
+}
